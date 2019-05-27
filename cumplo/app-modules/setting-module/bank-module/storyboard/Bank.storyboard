@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d5g-sU-blM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bank View-->
+        <scene sceneID="S7K-US-M89">
+            <objects>
+                <viewController storyboardIdentifier="BankStoryBoard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d5g-sU-blM" customClass="BankView" customModule="Cumplo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wAu-vE-3v9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="o1S-nq-c4C">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="P9J-fn-rXZ">
+                                    <rect key="frame" x="0.0" y="110" width="414" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" name="lightgray"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="BankCell" rowHeight="82" id="C41-Ok-BST" customClass="BankCell" customModule="Cumplo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="82"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C41-Ok-BST" id="Fwk-Ws-TVh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="81.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="liC-Bl-334">
+                                                    <rect key="frame" x="15" y="30.666666666666671" width="384" height="20.333333333333329"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igc-gz-3c7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="384" height="20.333333333333332"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="liC-Bl-334" firstAttribute="leading" secondItem="Fwk-Ws-TVh" secondAttribute="leading" constant="15" id="5ce-MM-oOY"/>
+                                                <constraint firstAttribute="trailing" secondItem="liC-Bl-334" secondAttribute="trailing" constant="15" id="p1v-aa-mWt"/>
+                                                <constraint firstItem="liC-Bl-334" firstAttribute="centerY" secondItem="Fwk-Ws-TVh" secondAttribute="centerY" id="xyT-Di-Jgy"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="igc-gz-3c7" id="L5U-Z5-kzg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="d5g-sU-blM" id="T1g-GJ-MpA"/>
+                                    <outlet property="delegate" destination="d5g-sU-blM" id="OyV-NE-QmH"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="lightgray"/>
+                        <constraints>
+                            <constraint firstItem="o1S-nq-c4C" firstAttribute="trailing" secondItem="hgm-ze-3KH" secondAttribute="trailing" id="Hh9-yK-EFK"/>
+                            <constraint firstItem="o1S-nq-c4C" firstAttribute="top" secondItem="wAu-vE-3v9" secondAttribute="top" id="lJ0-XE-3ti"/>
+                            <constraint firstItem="o1S-nq-c4C" firstAttribute="bottom" secondItem="hgm-ze-3KH" secondAttribute="bottom" id="mo1-gy-sru"/>
+                            <constraint firstItem="o1S-nq-c4C" firstAttribute="leading" secondItem="hgm-ze-3KH" secondAttribute="leading" id="yly-Zh-mU3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hgm-ze-3KH"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="o1S-nq-c4C" id="nys-gb-g9k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBG-SE-0Ml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.59999999999999" y="109.29535232383809"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="lightgray">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

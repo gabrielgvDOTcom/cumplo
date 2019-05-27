@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Crashlytics (3.13.1):
+    - Fabric (~> 1.10.1)
+  - Fabric (1.10.1)
+  - GoogleAnalytics (3.17.0)
+  - KIF (3.7.7):
+    - KIF/Core (= 3.7.7)
+  - KIF/Core (3.7.7)
+  - Kingfisher (5.4.0)
+  - Nimble (8.0.1)
+  - Nocilla (0.11.0)
+  - ObjectMapper (3.4.2)
+  - weeKGKit (0.0.2.10):
+    - Alamofire
+    - Kingfisher (= 5.4.0)
+    - ObjectMapper
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - GoogleAnalytics
+  - KIF
+  - Nimble
+  - Nocilla
+  - weeKGKit (from `https://github.com/gabrielgvDOTcom/weekgkit`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Crashlytics
+    - Fabric
+    - GoogleAnalytics
+    - KIF
+    - Kingfisher
+    - Nimble
+    - Nocilla
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  weeKGKit:
+    :git: https://github.com/gabrielgvDOTcom/weekgkit
+
+CHECKOUT OPTIONS:
+  weeKGKit:
+    :commit: 80ca468c181888562b749a41eac90cbeacb8e5cb
+    :git: https://github.com/gabrielgvDOTcom/weekgkit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Crashlytics: 5aa8e90dcbf2f34898b4f5a0037787531246cca0
+  Fabric: f6f21452846788bb44595d73e9909d79d328e617
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  KIF: 6f525b18d4cca3d6445f3c5d683294e9157bd3f4
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  weeKGKit: e43abb6500da0530d5bc037f04f084c8f3671c4c
+
+PODFILE CHECKSUM: 7d2c3f97d49fe6405dc9ea2a18f27648c7307dcc
+
+COCOAPODS: 1.6.1

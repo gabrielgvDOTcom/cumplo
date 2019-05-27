@@ -1,0 +1,70 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "title": "Información Personal",
+            "height": 50,
+            "fields": [
+                {
+                    "title": "Nickname",
+                    "placeholder": "Usuario"
+                },
+                {
+                    "title": "Nombre",
+                    "placeholder": "Guillermo Nigote"
+                },
+                {
+                    "title": "RUN",
+                    "placeholder": "12.345.678-5"
+                },
+                {
+                    "title": "Fecha Nacimiento",
+                    "placeholder": "16 Abril 2017"
+                },
+                {
+                    "title": "Género",
+                    "placeholder": "Masculino"
+                }
+            ],
+            "footer": {}
+        },
+        {
+            "title": "Contacto",
+            "height": 50,
+            "fields": [
+                {
+                    "title": "Teléfono",
+                    "placeholder": "+56 9 030 34 567"
+                }
+            ],
+            "footer": {}
+        },
+        {
+            "title": "Dirección de Facturación",
+            "height": 50,
+            "fields": [
+                {
+                    "title": "Region",
+                    "placeholder": "Metropolitana"
+                },
+                {
+                    "title": "Comuna",
+                    "placeholder": "Falsa"
+                },
+                {
+                    "title": "Calle",
+                    "placeholder": "Calle Falsa"
+                },
+                {
+                    "title": "Número",
+                    "placeholder": "123"
+                },
+                {
+                    "title": "Oficina",
+                    "placeholder": ""
+                }
+            ],
+            "footer": {}
+        }
+    ]
+}

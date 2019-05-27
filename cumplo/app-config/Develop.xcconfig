@@ -1,0 +1,15 @@
+//
+//  Develop.xcconfig
+//  micopiloto
+//
+//  Created by Gabriel Gárate Vivanco on 5/6/19.
+//  Copyright © 2019 IONIX. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Shared.xcconfig"
+#include "Pods/Target Support Files/Pods-Cumplo/Pods-Cumplo.debug.xcconfig"
+
+BaseURL = $(HTTPS)sandbox.ionix.cl/enex-api-dev/

@@ -1,0 +1,23 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "title": "Cambiar Contraseña",
+            "height": 50,
+            "fields": [
+                {
+                    "placeholder": "Contraseña Actual"
+                },
+                {
+                    "placeholder": "Ingrese Nueva Contraseña"
+                },
+                {
+                    "placeholder": "Repita Nueva Contraseña"
+                }
+            ],
+            "footer": {
+                "title": "Ingresa tu contraseña actual y tu nueva contraseña. Al terminar este proceso, deberás iniciar sesión nuevamente."
+            }
+        }
+    ]
+}

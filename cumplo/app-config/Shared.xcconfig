@@ -1,0 +1,12 @@
+//
+//  Shared.xcconfig
+//  cumplo
+//
+//  Created by Gabriel Gárate Vivanco on 5/6/19.
+//  Copyright © 2019 IONIX. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+HTTPS = https:/$()/

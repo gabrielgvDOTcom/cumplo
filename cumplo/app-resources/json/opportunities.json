@@ -1,0 +1,56 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "title": "Aerolineas Payaso",
+            "subtitle": "Credito en Cuotas",
+            "image": "",
+            "business": {
+                "id": 1,
+                "title": "Lider",
+                "subtitle": "Mayor Pagador (100%)"
+            },
+            "footer": {
+                "amount": "$80.000.000",
+                "term": "3 Meses",
+                "tir": "11,4",
+                "danger": "0.32"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Hipercompumegared",
+            "subtitle": "Credito en Cuotas",
+            "image": "",
+            "business": {
+                "id": 1,
+                "title": "Apple",
+                "subtitle": "Mayor Pagador (100%)"
+            },
+            "footer": {
+                "amount": "$5.000.000",
+                "term": "1 Mes",
+                "tir": "10,4",
+                "danger": "0.8"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Aerolineas Payaso",
+            "subtitle": "Credito en Cuotas",
+            "image": "",
+            "business": {
+                "id": 1,
+                "title": "Lider",
+                "subtitle": "Mayor Pagador (100%)"
+            },
+            "footer": {
+                "amount": "$80.000.000",
+                "term": "3 Meses",
+                "tir": "11,4",
+                "danger": "0.32"
+            }
+        },
+    ]
+}

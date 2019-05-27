@@ -1,0 +1,77 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 0,
+            "header": {
+                "title": "Filtra las utilidades disponibles o utiliza el buscador para encontrar un solicitante especifico",
+                "height": 70
+            },
+            "filters": [],
+            "footer": {}
+        },
+        {
+            "id": 1,
+            "header": {
+                "title": "PRODUCTOS DE INVERSIÓN"
+            },
+            "filters": [
+                {
+                    "id": 1,
+                    "title": "Crédito Directo"
+                },
+                {
+                    "id": 2,
+                    "title": "Crédito Factura"
+                },
+                {
+                    "id": 3,
+                    "title": "Crédito en Cuotas"
+                },
+                {
+                    "id": 4,
+                    "title": "Crédito Bullet"
+                },
+                {
+                    "id": 5,
+                    "title": "Crédito Cero Cupón"
+                },
+                {
+                    "id": 6,
+                    "title": "Crédito Respaldo Subsidio"
+                }
+            ],
+            "footer": {}
+        },
+        {
+            "id": 2,
+            "header": {
+                "title": "CONDICIONES"
+            },
+            "filters": [
+                {
+                    "id": 1,
+                    "title": "Plazo Máximo",
+                    "placeholder": "Todos los Plazos",
+                    "celltype": "selectcell",
+                    "data": []
+                },
+                {
+                    "id": 2,
+                    "title": "TIR",
+                    "placeholder": "Minimo 10%",
+                    "celltype": "selectcell",
+                    "data": []
+                },
+                {
+                    "id": 3,
+                    "title": "Punaje de Riesgo",
+                    "placeholder": "Menor 0.5",
+                    "celltype": "selectcell",
+                    "data": []
+                }
+            ],
+            "footer": {}
+        }
+    ]
+}

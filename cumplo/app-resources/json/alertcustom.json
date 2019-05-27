@@ -1,0 +1,12 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "title": "1",
+            "subtitle": "Crea tu pin de 4 digitos y luego ingresa los datos de tu medio de pago.",
+            "image": "onboard-1_icon",
+            "order": 1
+        }
+    ]
+}

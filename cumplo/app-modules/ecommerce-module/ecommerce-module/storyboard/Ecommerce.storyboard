@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GKn-6S-fSB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hiQ-RK-TfD">
+            <objects>
+                <navigationController id="GKn-6S-fSB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SEK-g3-zzR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="d5g-sU-blM" kind="relationship" relationship="rootViewController" id="3MP-lc-5mJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kzy-XG-slr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-535" y="109"/>
+        </scene>
+        <!--Ecommerce View-->
+        <scene sceneID="S7K-US-M89">
+            <objects>
+                <viewController storyboardIdentifier="EcommerceStoryBoard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d5g-sU-blM" customClass="EcommerceView" customModule="Cumplo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wAu-vE-3v9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lT4-Su-sOR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <color key="backgroundColor" name="lightgray"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="RcV-MW-9Jz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6bH-LW-2Oi">
+                                            <rect key="frame" x="63.5" y="15" width="248" height="40"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solo pago con Kiphu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejm-tC-MXJ">
+                                                    <rect key="frame" x="0.0" y="10" width="158" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pM9-D4-UWM">
+                                                    <rect key="frame" x="168" y="0.0" width="80" height="40"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="3si-Jk-HWU"/>
+                                                        <constraint firstAttribute="width" constant="80" id="zo7-bv-Hha"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="6bH-LW-2Oi" firstAttribute="centerY" secondItem="RcV-MW-9Jz" secondAttribute="centerY" id="i98-aN-niV"/>
+                                        <constraint firstItem="6bH-LW-2Oi" firstAttribute="centerX" secondItem="RcV-MW-9Jz" secondAttribute="centerX" id="vzV-6e-S9Z"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="d5g-sU-blM" id="eyc-4H-vVS"/>
+                                    <outlet property="delegate" destination="d5g-sU-blM" id="f5u-I5-ERp"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4Y-Nf-B0a">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W9r-da-eav">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1M-00-UGi">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="XRz-qD-LN1"/>
+                                        </constraints>
+                                        <state key="normal" title="Invertir US 1 Chillón"/>
+                                        <connections>
+                                            <action selector="buyTapped:" destination="d5g-sU-blM" eventType="touchUpInside" id="mVy-Am-jcv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="K1M-00-UGi" firstAttribute="top" secondItem="W9r-da-eav" secondAttribute="top" id="08g-FI-6QX"/>
+                                    <constraint firstAttribute="trailing" secondItem="K1M-00-UGi" secondAttribute="trailing" id="1Vo-zR-p3L"/>
+                                    <constraint firstItem="K1M-00-UGi" firstAttribute="leading" secondItem="W9r-da-eav" secondAttribute="leading" id="eHF-4g-EVm"/>
+                                    <constraint firstAttribute="bottom" secondItem="K1M-00-UGi" secondAttribute="bottom" id="lWz-e3-lrO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x4Y-Nf-B0a" firstAttribute="top" secondItem="W9r-da-eav" secondAttribute="top" id="1U6-3d-MRj"/>
+                            <constraint firstAttribute="bottom" secondItem="x4Y-Nf-B0a" secondAttribute="bottom" id="3KS-OE-0md"/>
+                            <constraint firstItem="lT4-Su-sOR" firstAttribute="leading" secondItem="hgm-ze-3KH" secondAttribute="leading" id="83A-bB-1gu"/>
+                            <constraint firstItem="x4Y-Nf-B0a" firstAttribute="leading" secondItem="hgm-ze-3KH" secondAttribute="leading" id="TRu-lF-beS"/>
+                            <constraint firstItem="W9r-da-eav" firstAttribute="trailing" secondItem="hgm-ze-3KH" secondAttribute="trailing" id="U6d-xb-sHQ"/>
+                            <constraint firstItem="lT4-Su-sOR" firstAttribute="top" secondItem="wAu-vE-3v9" secondAttribute="top" id="dO0-DR-uJc"/>
+                            <constraint firstItem="W9r-da-eav" firstAttribute="top" secondItem="lT4-Su-sOR" secondAttribute="bottom" id="lWt-fI-RMV"/>
+                            <constraint firstAttribute="trailing" secondItem="lT4-Su-sOR" secondAttribute="trailing" id="m4r-ZZ-9nv"/>
+                            <constraint firstItem="W9r-da-eav" firstAttribute="leading" secondItem="hgm-ze-3KH" secondAttribute="leading" id="qYL-Nt-Oj7"/>
+                            <constraint firstItem="hgm-ze-3KH" firstAttribute="bottom" secondItem="W9r-da-eav" secondAttribute="bottom" id="uDj-Mu-SwR"/>
+                            <constraint firstItem="hgm-ze-3KH" firstAttribute="trailing" secondItem="x4Y-Nf-B0a" secondAttribute="trailing" id="x3S-NN-xhg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hgm-ze-3KH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mvY-lS-dQs">
+                        <barButtonItem key="rightBarButtonItem" title="Vaciar" id="8gA-od-6l0"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buyButton" destination="K1M-00-UGi" id="gGL-oF-7s6"/>
+                        <outlet property="tableView" destination="lT4-Su-sOR" id="pCw-Rl-Nux"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBG-SE-0Ml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.59999999999999" y="109.29535232383809"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="lightgray">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

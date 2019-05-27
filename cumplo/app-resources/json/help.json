@@ -1,0 +1,47 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "header": {
+                "title": "¿NECESITAS AYUDA",
+                "height": 50
+            },
+            "body": [
+                {
+                    "id": 0,
+                    "title": "Email",
+                    "message": "a@cumplo.com",
+                    "icon": "email_icon"
+                },
+                {
+                    "id": 1,
+                    "title": "Teléfono",
+                    "message": "+56 9 030 35 678",
+                    "icon": "phone_icon"
+                },
+                {
+                    "id": 2,
+                    "title": "Celular",
+                    "message": "+56 9 030 35 678",
+                    "icon": "cellphone_icon"
+                },
+                {
+                    "id": 3,
+                    "title": "Celular 2",
+                    "message": "+56 9 030 35 678",
+                    "icon": "cellphone_icon"
+                },
+                {
+                    "id": 4,
+                    "title": "Dirección",
+                    "message": "123 Fake St",
+                    "icon": "address_icon"
+                }
+            ],
+            "footer": {
+                "title": "Te puedes comunicar con alguien del Equipo de Inversionistas vía mail o teléfono en horario hábil (09:00 - 18:00 hrs).",
+                "height": 70
+            }
+        }
+    ]
+}

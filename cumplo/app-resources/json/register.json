@@ -1,0 +1,40 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "title": "DATOS PERSONALES",
+            "height": 50,
+            "fields": [
+                {
+                    "title": "Nombre",
+                    "placeholder": "Guillermo Nigote",
+                    "validate": ["required"]
+                },
+                {
+                    "title": "Teléfono",
+                    "placeholder": "569 030 345 67",
+                    "validate": ["required"]
+                },
+                {
+                    "title": "Email",
+                    "placeholder": "Ingrese Contraseña",
+                    "validate": ["required", "valid_email"]
+                }
+            ]
+        },
+        {
+            "title": "CONTRASEÑA",
+            "height": 45,
+            "fields": [
+                {
+                    "placeholder": "Ingrese Contraseña",
+                    "validate": ["required", "min_length=6"]
+                },
+                {
+                    "placeholder": "Confirma tu Contraseña",
+                    "validate": ["required", "min_length=6"]
+                }
+            ]
+        }
+    ]
+}

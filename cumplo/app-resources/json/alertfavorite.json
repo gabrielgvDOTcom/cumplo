@@ -1,0 +1,26 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "title": "Dorsia",
+            "subtitle": "Solicitante",
+            "image": "onboard-1_icon",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "title": "Circle Laboratorios",
+            "subtitle": "Solicitante",
+            "image": "onboard-1_icon",
+            "order": 2
+        },
+        {
+            "id": 3,
+            "title": "Aereolineas Payaso",
+            "subtitle": "Solicitante",
+            "image": "onboard-1_icon",
+            "order": 3
+        }
+    ]
+}
