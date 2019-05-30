@@ -24,6 +24,7 @@ protocol OpportunityProtocolView: class {
 
     func style()
     func title(str: String)
+    func keyboard(inset: UIEdgeInsets)
     func message(viewWithTitle title: String, andMessage message: String)
 }
 protocol OpportunityProtocolInteractorInput: class {
@@ -40,6 +41,8 @@ protocol OpportunityProtocolInteractorInput: class {
     func getOpportunities()
 }
 protocol OpportunityProtocolInteractorOutput: class {
+
+    func scrollView(moveTo inset: UIEdgeInsets)
 
     func didRetrieve(filters data: [FilterEntity])
     func didRetrieve(opportunities data: [OpportunityEntity])

@@ -55,6 +55,9 @@ extension OpportunityPresenter: OpportunityProtocolInteractorOutput {
 
     //MARK: - Functions
     //MARK: Random
+    func scrollView(moveTo inset: UIEdgeInsets) {
+        view?.keyboard(inset: inset)
+    }
 
     //MARK: Data
     func didRetrieve(filters data: [FilterEntity]) {

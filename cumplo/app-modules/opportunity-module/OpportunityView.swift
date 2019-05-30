@@ -121,6 +121,9 @@ extension OpportunityView: OpportunityProtocolView {
     func title(str: String) {
         self.title = str
     }
+    func keyboard(inset: UIEdgeInsets) {
+        collectionView.contentInset = inset
+    }
     func message(viewWithTitle title: String, andMessage message: String) {
         
     }

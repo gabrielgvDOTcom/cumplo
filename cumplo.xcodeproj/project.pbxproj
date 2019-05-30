@@ -1773,7 +1773,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CumploUITests/Pods-CumploUITests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CumploUITests/Pods-CumploUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1784,7 +1784,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CumploUITests/Pods-CumploUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CumploUITests/Pods-CumploUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		26C0F573F6E2CDEF67B82B59 /* [CP] Check Pods Manifest.lock */ = {
@@ -1817,7 +1817,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CumploTests/Pods-CumploTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CumploTests/Pods-CumploTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nocilla/Nocilla.framework",
 			);
@@ -1830,7 +1830,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CumploTests/Pods-CumploTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CumploTests/Pods-CumploTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6BB17C0E31907EB40D024FE3 /* [CP] Embed Pods Frameworks */ = {
@@ -1841,7 +1841,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cumplo/Pods-Cumplo-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cumplo/Pods-Cumplo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -1858,7 +1858,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cumplo/Pods-Cumplo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumplo/Pods-Cumplo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A2B300D84ECF7C51D621CF0C /* [CP] Check Pods Manifest.lock */ = {

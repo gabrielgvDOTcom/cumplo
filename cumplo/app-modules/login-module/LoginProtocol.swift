@@ -38,7 +38,6 @@ protocol LoginProtocolInteractorInput: class {
 }
 protocol LoginProtocolInteractorOutput: class {
 
-    
     func scrollView(moveTo inset: UIEdgeInsets)
 
     func didRetrieve(user data: UserEntity)

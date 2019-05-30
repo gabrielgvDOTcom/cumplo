@@ -97,10 +97,6 @@ extension LoginView: LoginProtocolView {
         subtitleLabel.style(Style.Login.SubTitle)
         loginButton.style(Style.UI.Button.Primary)
         registerButton.style(Style.UI.Button.Secondary)
-        linkedinButton.style(Style.UI.Button.LinkedIn)
-        googleButton.style(Style.UI.Button.Google)
-        facebookButton.style(Style.UI.Button.Facebook)
-        twitterButton.style(Style.UI.Button.Twitter)
         passwordButton.style(Style.Login.PasswordButton)
     }
     func endediting() {
@@ -114,4 +110,3 @@ extension LoginView: LoginProtocolView {
         self.navigationController?.isNavigationBarHidden = !status
     }
 }
-
